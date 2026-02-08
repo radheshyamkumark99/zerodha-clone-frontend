@@ -5,7 +5,7 @@ function Hero() {
     <section className="container-fluid" id="supportHero">
       <div className="p-5" id="supportWrapper">
         <h5 style={{marginLeft:"100px"}}>Support Portal</h5>
-        <a href="#" style={{marginRight:"100px"}}>Track Tickets</a>
+        <button className="link-btn" style={{marginRight:"100px", color:"white"}}>Track Tickets</button>
       </div>
       <div className="row p-5">
         <div className="col-2"></div>
@@ -15,19 +15,19 @@ function Hero() {
           </h1>
           <input placeholder="Eg.How do I activate F&O, why is my order getting rejected..."></input>
           <br />
-          <a href="#">Track Account Opening</a> &nbsp;&nbsp;
-          <a href="#">Track Segment Activation</a> &nbsp;&nbsp;
-          <a href="#">Intraday Margins</a> &nbsp;&nbsp;
-          <a href="#">Kite User manual</a>
+          <button className="link-btn" style={{color:"white"}}>Track Account Opening</button> &nbsp;&nbsp;
+          <button className="link-btn" style={{color:"white"}}>Track Segment Activation</button> &nbsp;&nbsp;
+          <button className="link-btn" style={{color:"white"}}>Intraday Margins</button> &nbsp;&nbsp;
+          <button className="link-btn" style={{color:"white"}}>Kite User manual</button>
         </div>
         <div className="col-5 p-5">
           <h1 className="fs-3">Featured</h1>
           <ol>
             <li>
-              <a href="#">Current Takeovers and Delisting - january 2024</a>
+              <button className="link-btn" style={{color:"white"}}>Current Takeovers and Delisting - january 2024</button>
             </li>
             <li>
-              <a href="#">Latest Intraday leverage MIS & CO className="fs-3"</a>
+              <button className="link-btn" style={{color:"white"}}>Latest Intraday leverage MIS & CO className="fs-3"</button>
             </li>
           </ol>
         </div>
