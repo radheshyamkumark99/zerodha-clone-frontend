@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 
 const Login = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [inputValue, setInputValue] = useState({
     email: "",
     password: "",
@@ -46,7 +46,7 @@ const Login = () => {
         setTimeout(() => {
           // navigate("/dashboard");
           window.location.href = process.env.REACT_APP_DASHBOARD_URL;
-        }, 1000);
+        },500);
       } else {
         handleError(message);
       }

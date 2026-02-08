@@ -26,45 +26,45 @@ function Footer() {
         </div>
         <div className="col footer mb-5">
           <h4 className="mb-3">Account</h4>
-          <a href="#" className="d-block"> Open demat account</a> <br />
-          <a href="#" className="d-block"> Minor demat account</a> <br />
-          <a href="#" className="d-block"> NRI demat account</a> <br />
-          <a href="#" className="d-block"> Commodity</a> <br />
-          <a href="#" className="d-block"> Dematerialisation</a> <br />
-          <a href="#" className="d-block"> Fund transfer</a> <br />
-          <a href="#" className="d-block"> MTF</a> <br />
-          <a href="#"> Referral program</a> <br />
+          <button className="link-btn-footer d-block"> Open demat account</button> <br />
+          <button className="link-btn-footer d-block"> Minor demat account</button> <br />
+          <button className="link-btn-footer d-block"> NRI demat account</button> <br />
+          <button className="link-btn-footer d-block"> Commodity</button> <br />
+          <button className="link-btn-footer d-block"> Dematerialisation</button> <br />
+          <button className="link-btn-footer d-block"> Fund transfer</button> <br />
+          <button className="link-btn-footer d-block"> MTF</button> <br />
+          <button className="link-btn-footer d-block"> Referral program</button> <br />
         </div>
         <div className="col footer">
           <h4 className="mb-3">Support</h4>
-          <a href="#" className="d-block"> Contact us</a> <br />
-          <a href="#" className="d-block"> Support portal</a> <br />
-          <a href="#" className="d-block"> How to file a complaint?</a> <br />
-          <a href="#" className="d-block"> Status of your complaints</a> <br />
-          <a href="#" className="d-block"> Bulletin</a> <br />
-          <a href="#" className="d-block"> Circular</a> <br />
-          <a href="#" className="d-block"> Z-Connect blog</a> <br />
-          <a href="#"> Downloads</a> <br />
+          <button className="link-btn-footer d-block">Contact us</button> <br />
+          <button className="link-btn-footer d-block">Support portal</button> <br />
+          <button className="link-btn-footer d-block"> How to file a complaint?</button> <br />
+          <button className="link-btn-footer d-block"> Status of your complaints</button> <br />
+          <button className="link-btn-footer d-block"> Bulletin</button> <br />
+          <button className="link-btn-footer d-block"> Circular</button> <br />
+          <button className="link-btn-footer d-block"> Z-Connect blog</button> <br />
+          <button className="link-btn-footer d-block"> Downloads</button> <br />
         </div>
         <div className="col footer">
           <h4 className="mb-3">Company</h4>
-          <a href="#" className="d-block"> About</a> <br />
-          <a href="#" className="d-block"> Philosophy</a> <br />
-          <a href="#" className="d-block"> Press & media</a> <br />
-          <a href="#" className="d-block"> Careers</a> <br />
-          <a href="#" className="d-block"> Zerodha Cares (CSR)</a> <br />
-          <a href="#" className="d-block"> Zerodha.tech</a> <br />
-          <a href="#"> Open source</a> <br />
+          <button className="link-btn-footer d-block">About</button> <br />
+          <button className="link-btn-footer d-block">Philosophy</button> <br />
+          <button className="link-btn-footer d-block"> Press & media</button> <br />
+          <button className="link-btn-footer d-block"> Careers</button> <br />
+          <button className="link-btn-footer d-block"> Zerodha Cares (CSR)</button> <br />
+          <button className="link-btn-footer d-block"> Zerodha.tech</button> <br />
+          <button className="link-btn-footer d-block"> Open source</button> <br />
         </div>
         <div className="col footer">
           <h4 className="mb-3">Quick links</h4>
-          <a href="#" className="d-block"> Upcoming IPOs</a> <br />
-          <a href="#" className="d-block"> Brokerage charges</a> <br />
-          <a href="#" className="d-block"> Market holidays</a> <br />
-          <a href="#" className="d-block"> Economic calendar</a> <br />
-          <a href="#" className="d-block"> Calculators</a> <br />
-          <a href="#" className="d-block"> Markets</a> <br />
-          <a href="#"> Sectors</a> <br />
+          <button className="link-btn-footer d-block">Upcoming IPOs</button> <br />
+          <button className="link-btn-footer d-block">Brokerage charges</button> <br />
+          <button className="link-btn-footer d-block"> Market holidays</button> <br />
+          <button className="link-btn-footer d-block"> Economic calendar</button> <br />
+          <button className="link-btn-footer d-block"> Calculators</button> <br />
+          <button className="link-btn-footer d-block"> Markets</button> <br />
+          <button className="link-btn-footer d-block"> Sectors</button> <br />
         </div>
       </div>
       <div className="mt-2 text-muted" style={{fontSize:"12px"}}>
@@ -85,9 +85,9 @@ function Footer() {
         Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy
         redressal of the grievances
       </p>
-      <a href="#">
+      <button className="link-btn">
         Smart Online Dispute Resolution | Grievances Redressal Mechanism
-      </a>
+      </button>
       <p>
         Investments in securities market are subject to market risks; read all
         the related documents carefully before investing.

@@ -34,10 +34,10 @@ function Stats() {
           </p>
         </div>
         <div className="col-6 p-5">
-          <img src="media/images/ecosystem.png" style={{ width: "100%" }} />
+          <img src="media/images/ecosystem.png" alt="ecosystem" style={{ width: "100%" }} />
           <div className="text-center">
-            <a href="" className="mx-5" style={{textDecoration:"none"}}>Explore our products <i class="fa fa-long-arrow-right"></i></a>
-            <a href="" style={{textDecoration:"none"}}>Try Kite demo <i class="fa fa-long-arrow-right"></i> </a>
+            <button className="mx-5 link-btn" style={{textDecoration:"none"}}>Explore our products <i class="fa fa-long-arrow-right"></i></button>
+            <button className="link-btn" style={{textDecoration:"none"}}>Try Kite demo <i class="fa fa-long-arrow-right"></i> </button>
           </div>
         </div>
       </div>

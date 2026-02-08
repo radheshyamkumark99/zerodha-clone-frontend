@@ -48,7 +48,7 @@ function ProductsPage() {
         appStore=""
       />
 
-      <p className="text-center fs-4 mt-5 mb-5">Want to know more about our technology stack? Check out the <a href="#">Zerodha.tech</a> blog.</p>
+      <p className="text-center fs-4 mt-5 mb-5">Want to know more about our technology stack? Check out the <button className="link-btn" style={{textDecoration:"none"}}>Zerodha.tech</button> blog.</p>
       <Universe />
     </>
   );

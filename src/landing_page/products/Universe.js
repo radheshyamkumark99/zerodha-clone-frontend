@@ -12,7 +12,7 @@ function Universe() {
 
         <div className="col-4 p-3 text-muted">
           <img
-            src="media\images\zerodhaFundhouse.png"
+            src="media\images\zerodhaFundhouse.png" alt="fund"
             style={{ width: "40%" }}
           />
           <p>
@@ -21,7 +21,7 @@ function Universe() {
           </p>
         </div>
         <div className="col-4 p-3 text-muted">
-          <img src="media\images\sensibullLogo.svg" />
+          <img src="media\images\sensibullLogo.svg" alt="fund" />
           <p className="mt-3">
             Options trading platform that lets you create strategies, analyze
             positions, and examine data points like open interest, FII/DII, and
@@ -29,28 +29,28 @@ function Universe() {
           </p>
         </div>
         <div className="col-4 p-3 text-muted">
-          <img src="media\images\tijori.svg" style={{ width: "30%" }} />
+          <img src="media\images\tijori.svg" alt="fund" style={{ width: "30%" }} />
           <p>
             Investment research platform that offers detailed insights on
             stocks, sectors, supply chains, and more.
           </p>
         </div>
         <div className="col-4 p-3 mt-5 text-muted">
-          <img src="media\images\streakLogo.png" style={{ width: "30%" }} />
+          <img src="media\images\streakLogo.png" alt="fund" style={{ width: "30%" }} />
           <p>
             Systematic trading platform that allows you to create and backtest
             strategies without coding.
           </p>
         </div>
         <div className="col-4 p-3 mt-5 text-muted">
-          <img src="media\images\smallcaseLogo.png" />
+          <img src="media\images\smallcaseLogo.png" alt="fund" />
           <p>
             Thematic investing platform that helps you invest in diversified
             baskets of stocks on ETFs.
           </p>
         </div>
         <div className="col-4 p-3 mb-5 mt-5 text-muted">
-          <img src="media\images\dittoLogo.png" style={{ width: "25%" }} />
+          <img src="media\images\dittoLogo.png" alt="fund" style={{ width: "25%" }} />
           <p>
             Personalized advice on life and health insurance. No spam and no
             mis-selling. Sign up for free

@@ -55,3 +55,23 @@ code {
 #supportHero a:hover {
   color: blanchedalmond;
 }
+
+.link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #0d6efd;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+}
+
+.link-btn-footer {
+  background: none;
+  border: none;
+  padding: 0;
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+}

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "../../AsiosConfig";
 
 const SignUp = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [inputValue, setInputValue] = useState({
     email: "",
     password: "",
@@ -41,12 +41,12 @@ const SignUp = () => {
         },
         { withCredentials: true },
       );
-      const { success, message } = data;
+      // const { success, message } = data;
       if (data.success) {
         handleSuccess(data.message);
         setTimeout(() => {
           window.location.href = process.env.REACT_APP_DASHBOARD_URL;
-        }, 1000);
+        }, 500);
       } else {
         handleError(data.message);
       }
