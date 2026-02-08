@@ -12,7 +12,7 @@ import Navbar from "./landing_page/Navbar";
 import Footer from "./landing_page/Footer";
 import NotFound from "./landing_page/NotFound";
 import Login from "./landing_page/signup/Login";
-import App from "./App";
+import App from "./landing_page/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
